@@ -1,0 +1,15 @@
+{
+  "name": "soa-php/identifier-generator-mongodb",
+  "description": "Generate identifiers based on a MongoDb collection",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "mongodb/mongodb": "^1.4",
+    "soa-php/identifier-generator": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Soa\\IdentifierGeneratorMongoDb\\": "src/"
+    }
+  }
+}
