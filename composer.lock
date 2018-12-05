@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42f79be8e45d1a4e67e33c96dcd456eb",
+    "content-hash": "e70ddce1d32505f1a1f6c0f08af018ef",
     "packages": [
         {
             "name": "mongodb/mongodb",
@@ -200,7 +200,7 @@
         },
         {
             "name": "soa-php/identifier-generator",
-            "version": "1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/soa-php/identifier-generator.git",
@@ -291,7 +291,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "soa-php/identifier-generator": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
